@@ -24,7 +24,7 @@ page {
 
 .img-responsive {
     max-width: 100%;
-    height:auto;
+    height: auto;
 }
 
 .bottom-5 {
@@ -94,15 +94,17 @@ page {
     padding-right: 34px;
 
 }
-@media only screen and (min-width:992px){
-.nav-link:hover {
 
-    border-top: 3px solid #ff6033;
+@media only screen and (min-width:992px) {
+    .nav-link:hover {
 
-    margin-top: -3px;
-    width: auto;
+        border-top: 3px solid #ff6033;
+
+        margin-top: -3px;
+        width: auto;
+    }
 }
-}
+
 .position__highlight--active {
     background-color: #ff6033;
 }
@@ -160,7 +162,7 @@ page {
 .btn {
     min-width: 100px;
     max-width: 200px;
-    height: 55px ;
+    height: 55px;
     font-size: 20px;
     border-radius: 0;
     color: white;
@@ -202,11 +204,9 @@ page {
     width: 10%;
     height: 42px;
     display: block;
-    margin:0 auto;
+    margin: 0 auto;
     margin-top: 30vh;
     margin-bottom: 70px
-
-
 }
 
 .fresh_life__background {
@@ -226,9 +226,8 @@ page {
     color: white;
 }
 
-.about__paragraph .services {
-    background-color: #70bfff;
-}
+.about__paragraph {}
+
 
 .services {
     background-color: #70bfff;
@@ -282,7 +281,11 @@ services__img {
 .subscribe {
     background-color: #fff;
 }
-.subscribe__btn
+
+.subscribe__btn .gallery {
+    background-color: #ffe92f;
+}
+
 .gallery {
     background-color: #ffe92f;
 }
@@ -297,7 +300,9 @@ services__img {
 .gallery__item {
     margin-bottom: 30px;
 }
-.gallery__btn
+
+.gallery__btn {}
+
 .blog {
     background-color: #b07cf7;
 }
@@ -369,17 +374,13 @@ services__img {
     color: #ff2b58;
 }
 
-.subscribe__btn {
-    
-}
+.subscribe__btn {}
 
 .gallery__btn {
-    margin:0 auto;
+    margin: 0 auto;
     margin-top: 50px;
     display: flex;
     justify-content: center;
 }
 
-.services__list {
-    
-}
+.services__list {}
