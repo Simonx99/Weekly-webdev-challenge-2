@@ -140,6 +140,7 @@ page {
     background-size: cover;
     background-position: 50% 50px;
     background-repeat: no-repeat;
+    height: calc(100% + 70px);
 }
 
 .paragraph {
@@ -194,14 +195,15 @@ page {
     background-position: right;
     font-size: 17px;
     text-align: center;
-    text-overflow
+    text-overflow margin: 0 auto;
+    margin: 0 auto;
 }
 
 .scroll_icon {
     background-image: url("../IMG/scroll.png");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 10%;
+    width: 32px;
     height: 42px;
     display: block;
     margin: 0 auto;
@@ -234,14 +236,22 @@ page {
 }
 
 .services__heading {
+    position: absolute;
+    bottom: 30%;
+    top: 25%;
+
+
     font-size: 90px;
     font-weight: bold;
-
     color: white;
 }
 
 .services__list {
-    ;
+    position: relative;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .btn-light {
@@ -251,6 +261,7 @@ page {
 .btn-light:nth-child(1) {
     background-image: url("../IMG/icon_shopping.png");
     margin-bottom: 20px;
+    margin-top: 180px;
 }
 
 .btn-light:nth-child(2) {
@@ -269,7 +280,7 @@ page {
 
 .btn-light:nth-child(4) {
     background-image: url("../IMG/icon_organized.png");
-
+    margin-bottom: 150px;
 }
 
 services__img {
