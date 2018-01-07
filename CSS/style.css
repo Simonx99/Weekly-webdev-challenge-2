@@ -87,6 +87,7 @@ page {
     font-family: 'Pacifico', cursive;
     color: black;
     font-size: 50px;
+    font-weight: 400;
 }
 
 .nav__menu {}
@@ -133,7 +134,7 @@ page {
 .fresh_life__heading {
     padding-top: 17.25%;
     font-size: 60px;
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .fresh_life__bg {
@@ -142,12 +143,24 @@ page {
     background-position: 50% 50px;
     background-repeat: no-repeat;
     height: calc(100% + 70px);
-padding-bottom: 1px;
+    padding-bottom: 1px;
 }
 
 .paragraph {
     font-size: 17px;
-    font-weight: lighter;
+    font-weight: 300;
+}
+
+.p-left {
+    text-align: left;
+}
+
+.p-right {
+    text-align: right;
+}
+
+.p-center {
+    text-align: center
 }
 
 .about__heading {
@@ -157,7 +170,7 @@ padding-bottom: 1px;
 .about__paragraph {
     padding-top: 36px;
     padding-bottom: 35px;
-    text-align: left;
+
 }
 
 
@@ -166,7 +179,8 @@ padding-bottom: 1px;
     min-width: 100px;
     max-width: 200px;
     height: 55px;
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: 300;
     border-radius: 0;
     color: white;
 }
@@ -196,6 +210,7 @@ padding-bottom: 1px;
     background-repeat: no-repeat;
     background-position: right;
     font-size: 17px;
+    font-weight: 700;
     text-align: center;
     text-overflow margin: 0 auto;
     margin: 0 auto;
@@ -221,12 +236,15 @@ padding-bottom: 1px;
 }
 
 .about__heading {
-    font-size: 60px;
+    font-size: 90px;
     font-weight: bold;
     color: white;
 }
 
-.about__paragraph {}
+.about__paragraph {
+    color: white;
+    font: 17px;
+}
 
 
 .services {
@@ -291,17 +309,34 @@ services__img {
     background-color: #fff;
 }
 
+.subscribe__heading {
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 145px;
+}
+
+.subscribe__p {
+    padding-top: 34px;
+    padding-bottom: 31px;
+}
+
 .subscribe__btn {}
 
 .gallery {
     background-color: #ffe92f;
-    
+
     padding-bottom: 40px
 }
 
 .gallery__heading {
     font-size: 90px;
     font-weight: bold;
+    padding-top: 100px;
+    padding-bottom: 28px;
+}
+
+.p-gallery {
+    padding-bottom: 47px;
 }
 
 .gallery__img {
@@ -327,7 +362,7 @@ services__img {
     color: white;
     font-size: 90px;
     font-weight: bold;
-
+    text-align: center;
 }
 
 .blog__item {
@@ -434,6 +469,22 @@ services__img {
 
     background-image: url("../IMG/contact__bg.png");
     background-size: cover;
+    padding-bottom: 120px;
+}
+
+.contact__heading {
+    font-size: 90px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 101px;
+}
+
+.contact__p {
+    margin-top: 43px;
+    margin-bottom: 46px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 300px;
 }
 
 .form-control {
@@ -461,15 +512,21 @@ services__img {
 
 .contact__input {}
 
-.contact__form {}
+.contact__form {
+    margin-bottom: auto;
+}
+
+.form-area {
+    margin-bottom: 120px;
+}
 
 .footer {
     background-color: #262626;
-
+    font-size: 16px;
     margin-top: -10px;
     padding-bottom: 1px;
     color: #929292;
-
+    line-height: 64px;
 }
 
 .footer__company {}
@@ -478,18 +535,22 @@ services__img {
     color: #888888;
     font-family: 'Pacifico', cursive;
     text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+
+
 }
 
 .footer__made .footer__love {
     color: #ff2b58;
 }
 
-.subscribe__btn {}
+
 
 .gallery__btn {
     margin: 0 auto;
     margin-top: 50px;
-    
+
     display: flex;
     justify-content: center;
 }

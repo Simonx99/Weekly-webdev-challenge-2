@@ -136,8 +136,8 @@
     <!-- GALLERY -->
     <section id="gallery" class="gallery">
         <div class="container">
-            <h1 class="gallery__heading">Gallery</h1>
-            <p class="paragraph">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <h1 class="gallery__heading p-center">Gallery</h1>
+            <p class="paragraph p-center p-gallery">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et <span class="dis-block"></span>dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <span class="dis-block"></span>ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <div class="container">
                 <div class="row bottom-30">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9"><img class="img-responsive" src="IMG/gallery__1.png" alt="Photo"></div>
@@ -167,12 +167,12 @@
 
     <section class="subscribe">
         <div class="container">
-            <h1>Subscribe To Us</h1>
-            <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 
             <form action="">
                 <div class="row">
                     <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
+                        <h1 class="subscribe__heading">Subscribe To Us</h1>
+                        <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <span class="dis-block"></span>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                         <input class="contact__input" type="text" placeholder="Your name"></div>
                     <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
                         <button class="btn btn-green subscribe__btn">SUBSCRIBE</button></div>
@@ -187,8 +187,8 @@
 
     <section id="blog" class="blog">
         <div class="container">
-            <h1 class="blog__heading">Blog</h1>
-            <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+            <h1 class="blog__heading p-center">Blog</h1>
+            <p class="paragraph">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
             <div class="container">
                 <div class="row">
 
@@ -234,8 +234,8 @@
 
     <section id="contact" class="contact">
         <div class="container">
-            <h1>Contact</h1>
-            <p>For new projects, ideas, business or anything you'd like to discuss, contact with me!</p>
+            <h1 class="contact__heading">Contact</h1>
+            <p class="contact__p">For new projects, ideas, business or anything <span class="dis-block"></span>you'd like to discuss, contact with me!</p>
             <div class="container">
                 <div class="row">
 
@@ -243,7 +243,7 @@
                         <input class="form-control" type="text" placeholder="Your name">
                         <input class="form-control" type="text" placeholder="Your email">
                         <input class="form-control" type="text" placeholder="Your phone number">
-                        <textarea class="form-control contact__form" name="" id="" cols="30" rows="10">Your message</textarea>
+                        <textarea class="form-control contact__form form-area" name="" id="" cols="30" rows="10">Your message</textarea>
                     </form>
 
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
@@ -268,9 +268,9 @@
             <div class="row">
                 <!-- footer -->
 
-                <p class="paragraph footer__company  col-xs-12 col-sm-12 col-md-4 col-lg-4">&copy 2017 Company. All right reserved </p>
-                <p class="paragraph footer__logo  col-xs-12 col-sm-12 col-md-4 col-lg-4">Cahee</p>
-                <p class="paragraph footer__made  col-xs-12 col-sm-12 col-md-4 col-lg-4">Made with<span class="footer__love"> love </span>by S I M O N</p>
+                <p class="paragraph footer__company  col-xs-6 col-sm-12 col-md-5 col-lg-4">&copy 2017 Company. All right reserved </p>
+                <p class="paragraph footer__logo  col-xs-6 col-sm-2 col-md-2 col-lg-4">Cahee</p>
+                <p class="paragraph footer__made  col-xs-12 col-sm-12 col-md-5 col-lg-4">Made with<span class="footer__love"> love </span>by S I M O N</p>
             </div>
         </div>
     </footer>
@@ -289,7 +289,6 @@
                 scrollTop: $($.attr(this, 'href')).offset().top
             }, 500);
         });
-
     </script>
 </body>
 
