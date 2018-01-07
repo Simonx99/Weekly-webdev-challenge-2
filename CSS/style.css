@@ -142,6 +142,7 @@ page {
     background-position: 50% 50px;
     background-repeat: no-repeat;
     height: calc(100% + 70px);
+padding-bottom: 1px;
 }
 
 .paragraph {
@@ -294,7 +295,8 @@ services__img {
 
 .gallery {
     background-color: #ffe92f;
-    height: calc(100% + 40px);
+    
+    padding-bottom: 40px
 }
 
 .gallery__heading {
@@ -487,7 +489,7 @@ services__img {
 .gallery__btn {
     margin: 0 auto;
     margin-top: 50px;
-    margin-bottom: 40px;
+    
     display: flex;
     justify-content: center;
 }
