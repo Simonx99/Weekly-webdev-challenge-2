@@ -319,8 +319,9 @@ services__img {
     padding-top: 34px;
     padding-bottom: 31px;
 }
-
-.subscribe__btn {}
+@media only screen and (min-width:768px){.subscribe__btn{position: absolute;
+    bottom: 15px; }}
+.subscribe__btn {height: 60px;}
 
 .gallery {
     background-color: #ffe92f;
@@ -399,7 +400,7 @@ services__img {
 
 }
 
-. .time {
+ .time {
     width: 100%;
 }
 
@@ -509,7 +510,19 @@ services__img {
     font-weight: 700;
     color: white;
 }
-
+.form-white {
+    
+    background-color: white;
+        border: 1px solid black;
+    color: #262626;
+    height: 60px;
+}
+.form-white:focus{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+.form-white::placeholder{color:#262626;}
 .contact__input {}
 
 .contact__form {
@@ -556,3 +569,14 @@ services__img {
 }
 
 .services__list {}
+/* responsive fonts */
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
