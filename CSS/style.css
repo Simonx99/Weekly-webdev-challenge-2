@@ -609,7 +609,7 @@ services__img {
 
 .services__list {}
 
-/* responsive fonts */
+
 
 @media (max-width:768px) {
     .blog__time p:first-child {
@@ -840,6 +840,16 @@ services__img {
         bottom: 0;
         font-size: 8px;
     }
+    .img-res--1 {
+        height: 100%;
+    }
+    .services__img {
+        margin-top: 180px;
+    }
+    .services__heading {
+        top: 240px;
+    }
+
 }
 
 
