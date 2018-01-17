@@ -252,7 +252,7 @@ page {
 }
 
 .about__heading {
-    font-size: 90px;
+    font-size: 70px;
     font-weight: bold;
     color: white;
 }
@@ -349,7 +349,7 @@ services__img {
 }
 
 .gallery__heading {
-    font-size: 90px;
+    font-size: 80px;
     font-weight: bold;
     padding-top: 100px;
     padding-bottom: 28px;
@@ -389,7 +389,7 @@ services__img {
     margin-bottom: 30px;
 }
 
-.blog__h2 {
+.blog__h3 {
     position: absolute;
     top: 70%;
     max-width: 300px;
@@ -400,7 +400,7 @@ services__img {
     color: white;
 }
 
-.blog__h3 {
+.blog__h4 {
     position: absolute;
     bottom: 23px;
     margin-right: 43px;
@@ -657,12 +657,12 @@ services__img {
         width: 30px;
         height: 30px;
     }
-    .blog__h2 {
+    .blog__h3 {
         top: 50%;
         font-size: 9px;
         margin: 10px;
     }
-    .blog__h3 {
+    .blog__h4 {
         bottom: 0;
         font-size: 6px;
         margin: 10px;
@@ -688,12 +688,12 @@ services__img {
         width: 30px;
         height: 30px;
     }
-    .blog__h2 {
+    .blog__h3 {
         top: 70%;
         font-size: 9.2px;
         margin: 10px;
     }
-    .blog__h3 {
+    .blog__h4 {
         bottom: 0;
         font-size: 7px;
         margin: 10px;
@@ -742,12 +742,12 @@ services__img {
         margin: 0 auto;
         margin-bottom: 15px;
     }
-    .blog__h2 {
+    .blog__h3 {
         top: 70%;
         font-size: 15px;
         margin: 7px;
     }
-    .blog__h3 {
+    .blog__h4 {
         bottom: 0;
         font-size: 12px;
         margin: 7px;
@@ -779,12 +779,12 @@ services__img {
         margin-bottom: 15px;
     }
 
-    .blog__h2 {
+    .blog__h3 {
         top: 70%;
         font-size: 22px;
         margin: 7px;
     }
-    .blog__h3 {
+    .blog__h4 {
         bottom: 0;
         font-size: 12px;
         margin: 13px;
@@ -813,14 +813,15 @@ services__img {
         position: absolute;
         bottom: 15px;
     }
+    .about-img{margin-top: 25%;}
 }
 
 
 @media (min-width: 992px) {
-    .blog__h2 {
+    .blog__h4 {
         font-size: 12px;
     }
-    .blog__h3 {
+    .blog__h4 {
         bottom: 0;
         font-size: 8px;
     }
@@ -833,7 +834,7 @@ services__img {
     .services__heading {
         top: 240px;
     }
-
+    .about-img{margin-top: 0;}
 }
 
 
